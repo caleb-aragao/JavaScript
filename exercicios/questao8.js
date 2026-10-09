@@ -1,0 +1,17 @@
+/*
+8. Analise o código "RPG" e determine a saída final:
+A) Vivo
+B) Ressuscitado
+C) Game Over
+D) Erro de sintaxe no operador ternário
+*/
+let vidaHeri = 10;
+let pocao = true;
+
+for (let ataque = 1; ataque <= 3; ataque++) {
+    vidaHeri -= 4;
+}
+
+let status = (vidaHeri > 0) ? "Vivo" : (pocao) ? "Ressuscitado" : "Game Over";
+console.log(status); 
+console.log("B) Ressuscitado");

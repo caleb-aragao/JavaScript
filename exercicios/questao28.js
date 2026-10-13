@@ -1,0 +1,3 @@
+/*
+28. Analise a lógica: Qual o valor final de contador? let contador = 0; for (let i = 0; i < 10; i++) { if (i % 2 === 0) { contador++; } } A) 10  B) 5 (O laço conta quantos números pares existem entre 0 e 9).  C) 2  D) 0 */
+console.log("B) 5 (O laço conta quantos números pares existem entre 0 e 9)")
